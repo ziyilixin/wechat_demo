@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wechat_demo/const.dart';
 import 'package:wechat_demo/discover/discover_cell.dart';
 
 class MinePage extends StatefulWidget {
@@ -68,7 +69,7 @@ class _MinePageState extends State<MinePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Color.fromRGBO(220, 220, 220, 1),
+        color: WeChatThemeColor,
         child: Stack(
           children: [
             //列表

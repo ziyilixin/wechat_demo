@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wechat_demo/chat_page.dart';
 import 'package:wechat_demo/discover/discover_page.dart';
-import 'package:wechat_demo/friends_page.dart';
+import 'package:wechat_demo/friends/friends_page.dart';
 import 'package:wechat_demo/mine_page.dart';
 
 class RootPage extends StatefulWidget {
